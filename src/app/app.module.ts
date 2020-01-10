@@ -12,7 +12,8 @@ import { AdminMenuComponent } from './components/admin-menu/admin-menu.component
 import { CompanyAdminViewComponent } from './components/admin-coupon/company-admin-view/company-admin-view.component';
 import { CustomerAdminViewComponent } from './components/admin-coupon/customer-admin-view/customer-admin-view.component';
 import { CouponAdminViewComponent } from './components/admin-coupon/coupon-admin-view/coupon-admin-view.component'; 
-import { Ng2OdometerModule } from 'ng2-odometer'; // <-- import the module
+import { Ng2OdometerModule } from 'ng2-odometer';
+import { CouponComponent } from './components/coupon/coupon.component'; // <-- import the module
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { Ng2OdometerModule } from 'ng2-odometer'; // <-- import the module
     AdminMenuComponent,
     CompanyAdminViewComponent,
     CustomerAdminViewComponent,
-    CouponAdminViewComponent
+    CouponAdminViewComponent,
+    CouponComponent
   ],
   imports: [
     BrowserModule,

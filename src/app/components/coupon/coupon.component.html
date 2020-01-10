@@ -1,0 +1,40 @@
+<!-- 
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of companies">
+            <td>{{row.name}}</td>
+            <td>{{row.email}}</td>
+        </tr>
+    </tbody>
+</table> -->
+
+
+<div class="container">
+    <div class="row col-md-12">
+
+        <div class="card" style="width: 18rem;" *ngFor="let company of companies">
+            <img src="assets/img-01.png" alt="IMG" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{company.name}}</h5>
+                <p class="card-text">{{company.name}}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body" id="buy-now">
+        
+                <button type="button" class="btn btn-info">Buy Now</button>
+        
+        
+            </div>
+        </div>
+    </div>
+</div>

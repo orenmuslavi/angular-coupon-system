@@ -35,9 +35,7 @@ export class LoginComponent implements OnInit {
  password: 12345678
 */
 
-navigateTo(){
-  this.router.navigateByUrl('/' + this.userChoose);
-}
+
 
   onSubmit() {
     this.submitted = true;
@@ -51,9 +49,10 @@ navigateTo(){
     }
  
   }
-
+  navigateTo(){
+    this.router.navigateByUrl('/' + this.userChoose);
+  }
   
-
   notify(){
     alert(this.name);
   }

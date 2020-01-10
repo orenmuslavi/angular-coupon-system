@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { CompanyAdminViewComponent } from './components/admin-coupon/company-admin-view/company-admin-view.component';
 import { CouponAdminViewComponent } from './components/admin-coupon/coupon-admin-view/coupon-admin-view.component';
 import { CustomerAdminViewComponent } from './components/admin-coupon/customer-admin-view/customer-admin-view.component';
+import { CouponComponent } from './components/coupon/coupon.component';
 
 
 const routes: Routes = [
@@ -25,7 +26,8 @@ const routes: Routes = [
     ]
   },
   { path: 'customer', component: CustomerCouponComponent },
-  { path: 'company', component: CompanyCouponComponent }
+  { path: 'company', component: CompanyCouponComponent },
+  { path: 'coupon' , component: CouponComponent}
 ];
 
 
