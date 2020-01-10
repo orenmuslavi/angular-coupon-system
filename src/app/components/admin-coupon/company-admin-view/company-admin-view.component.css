@@ -1,0 +1,42 @@
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header-counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 8px;
+    width: 7em;
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.company{
+    background-color: #28a745;
+}
+
+.coupon{
+    background-color: #ffc107;
+    color: #343a40;
+}
+
+.customer{
+    background-color: #17a2b8;
+}
+
+.odometerNumber{
+    text-align: center;
+    width: 3em;
+    /* background-color: lightgreen; */
+    margin: 0 auto;
+    font-size: 35px;
+    padding: 8px;
+    /* border-radius: 25px; */
+}

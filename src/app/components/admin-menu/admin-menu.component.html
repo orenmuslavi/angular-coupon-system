@@ -1,0 +1,12 @@
+
+
+<nav>
+    <ul>
+        <li *ngFor="let link of links">
+            <a [routerLink]="[link.route]" routerLinkActive="router-link-active">
+                <h4>{{link.name}}</h4>
+            </a>
+        </li>
+    </ul>
+</nav>
+

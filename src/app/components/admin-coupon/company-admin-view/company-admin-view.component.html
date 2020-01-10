@@ -1,0 +1,64 @@
+<!-- <div class="page-header">
+    <h1>Company List <small>admin mode</small></h1>
+</div> -->
+
+
+<!-- <ul>
+    <li *ngFor="let row of companies">{{row.name}}</li>
+    <li *ngFor="let row of companies">{{row.mail}}</li>
+</ul> -->
+<!-- <h1>Active Company:                 {{companyCounter}}</h1>
+<h1>Active Coupons:                 {{companyCounter}}</h1>
+<h1>Active Customers:                 {{companyCounter}}</h1> -->
+<div class="list">
+    <div class="header-counter company">
+        <div>Companies</div>
+        <div class="odometerNumber">
+            <ng2-odometer [number]="companyCounter" [config]="{ }"></ng2-odometer>
+        </div>
+    </div>
+    <div class="header-counter customer">
+        <div>Customers</div>
+        <div class="odometerNumber">
+            <ng2-odometer [number]="customersCounter" [config]="{ }"></ng2-odometer>
+        </div>
+    </div>
+    <div class="header-counter coupon">
+        <div>Coupons</div>
+        <div class="odometerNumber">
+            <ng2-odometer [number]="couponsCounter" [config]="{ }"></ng2-odometer>
+        </div>
+    </div>
+</div>
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Company</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of companies">
+            <td>{{row.name}}</td>
+            <td>{{row.email}}</td>
+        </tr>
+    </tbody>
+</table>

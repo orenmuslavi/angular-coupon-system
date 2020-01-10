@@ -1,0 +1,14 @@
+  <div class="container">
+    <div class="wrapper">
+      <h3>Hello Company, {{currentDate}}</h3>
+      <h2 id="customerName"></h2>
+      <div class="user-panel">
+        <button class="logout" type="button" (click)="logout()">log out</button>
+        <select class="customer-options" name="customerOptions">
+          <option value="addCoupon">Add Coupon</option>
+          <option value="removeCoupon">Remove Coupon</option>
+          <option value="allCoupons" selected="select">allCoupons</option>
+        </select>
+      </div>
+    </div>
+  </div>
